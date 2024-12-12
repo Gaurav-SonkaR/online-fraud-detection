@@ -17,26 +17,27 @@
         <label for="type" class="form-label">Select Type : </label>
 
         <div class="form-check">
-            <input class="form-check-input" type="radio" id="0" name="type" value="0">
+            <input class="form-check-input" type="radio" id="0" name="type" value="0" required>
             <label class="form-check-label" for="0">Payment</label>
         </div>
+
         <div class="form-check">
-  <input class="form-check-input" type="radio" id="1" name="type" value="1">
+  <input class="form-check-input" type="radio" id="1" name="type" value="1" required>
   <label class="form-check-label" for="1">CASH In</label>
         </div>
 
         <div class="form-check">
-  <input class="form-check-input" type="radio" id="2" name="type" value="2">
+  <input class="form-check-input" type="radio" id="2" name="type" value="2" required>
   <label class="form-check-label" for="2">Debit</label>
         </div>
         
         <div class="form-check">
-<input class="form-check-input" type="radio" id="3" name="type" value="3">
+<input class="form-check-input" type="radio" id="3" name="type" value="3" required>
   <label class="form-check-label" for="3">Cash Out</label>
         </div>
         
         <div class="form-check">
-            <input class="form-check-input" type="radio" id="4" name="type" value="4">
+            <input class="form-check-input" type="radio" id="4" name="type" value="4" required>
             <label class="form-check-label" for="4">Transfer</label>
         </div>
 
@@ -44,27 +45,27 @@
 
     <div class="mb-3">  
   <label for="amount" class="form-label">Amount : </label><br>
-  <input class="form-control " type="text" id="amount" name="amount" value="{{amount}}"><br>
+  <input class="form-control " type="text" id="amount" name="amount" value="{{amount}}" required>
     </div>
 
     <div class="mb-3">
   <label for="oldbalanceOrg" class="form-label">Old Balance Org : </label><br>
-  <input class="form-control" type="text" id="oldbalanceOrg" name="oldbalanceOrg" value="{{oldbalanceOrg}}"><br>
+  <input class="form-control" type="text" id="oldbalanceOrg" name="oldbalanceOrg" value="{{oldbalanceOrg}}" required>
     </div>
 
     <div class="mb-3"> 
   <label for="newbalanceOrg" class="form-label">New Balance Org : </label><br>
-  <input class="form-control" type="text" id="newbalanceOrg" name="newbalanceOrg" value="{{newbalanceOrg}}"><br>
+  <input class="form-control" type="text" id="newbalanceOrg" name="newbalanceOrg" value="{{newbalanceOrg}}" required>
     </div>
 
     <div class="mb-3">
   <label for="oldbalanceDest" class="form-label">Old Balance Dest : </label><br>
-  <input class="form-control" type="text" id="oldbalanceDest" name="oldbalanceDest" value="{{oldbalanceDest}}"><br>
+  <input class="form-control" type="text" id="oldbalanceDest" name="oldbalanceDest" value="{{oldbalanceDest}}" required>
     </div>
 
     <div class="mb-3">
   <label for="newbalanceDest" class="form-label">New Balance Dest : </label><br>
-  <input class="form-control" type="text" id="newbalanceDest" name="newbalanceDest" value="{{newbalanceDest}}"><br>
+  <input class="form-control" type="text" id="newbalanceDest" name="newbalanceDest" value="{{newbalanceDest}}" required>
     </div>
  
   <div class=mb-3>
